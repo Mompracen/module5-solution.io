@@ -221,7 +221,7 @@ th {
   padding: 0
 }
 
-
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
 
   *,
@@ -7994,27 +7994,31 @@ button.close {
 .center-block {
   display: block;
   margin-right: auto;
-  margin-left: auto
+  margin-left: auto;
 }
 
 .pull-right {
-  float: right !important
+  float: right;
+     !important;
 }
 
 .pull-left {
-  float: left !important
+  float: left;
+     !important;
 }
 
 .hide {
-  display: none !important
+  display: none;
+     !important;
 }
 
 .show {
-  display: block !important
+  display: block;
+     !important;
 }
 
 .invisible {
-  visibility: hidden
+  visibility: hidden;
 }
 
 .text-hide {
@@ -8022,26 +8026,28 @@ button.close {
   color: transparent;
   text-shadow: none;
   background-color: transparent;
-  border: 0
+  border: 0;
 }
 
 .hidden {
-  display: none !important
+  display: none;
+     !important;
 }
 
 .affix {
-  position: fixed
+  position: fixed;
 }
 
 @-ms-viewport {
-  width: device-width
+  width: device-width;
 }
 
 .visible-lg,
 .visible-md,
 .visible-sm,
 .visible-xs {
-  display: none !important
+  display: none;
+     !important;
 }
 
 .visible-lg-block,
@@ -8056,236 +8062,279 @@ button.close {
 .visible-xs-block,
 .visible-xs-inline,
 .visible-xs-inline-block {
-  display: none !important
+  display: none;
+     !important;
 }
 
 @media (max-width:767px) {
   .visible-xs {
-    display: block !important
+    display: block;
+       !important;
   }
 
   table.visible-xs {
-    display: table !important
+    display: table;
+       !important;
   }
 
   tr.visible-xs {
-    display: table-row !important
+    display: table-row; !important;
   }
 
   td.visible-xs,
   th.visible-xs {
-    display: table-cell !important
+    display: table-cell;
+       !important;
   }
 }
 
 @media (max-width:767px) {
   .visible-xs-block {
-    display: block !important
+    display: block;
+       !important;
   }
 }
 
 @media (max-width:767px) {
   .visible-xs-inline {
-    display: inline !important
+    display: inline;
+       !important;
   }
 }
 
 @media (max-width:767px) {
   .visible-xs-inline-block {
-    display: inline-block !important
+    display: inline-block;
+       !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .visible-sm {
-    display: block !important
+    display: block;
+       !important;
   }
 
   table.visible-sm {
-    display: table !important
+    display: table;
+       !important;
   }
 
   tr.visible-sm {
-    display: table-row !important
+    display: table-row;
+       !important;
   }
 
   td.visible-sm,
   th.visible-sm {
-    display: table-cell !important
+    display: table-cell;
+       !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .visible-sm-block {
-    display: block !important
+    display: block;
+       !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .visible-sm-inline {
-    display: inline !important
+    display: inline;
+       !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .visible-sm-inline-block {
-    display: inline-block !important
+    display: inline-block;
+       !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .visible-md {
-    display: block !important
+    display: block;
+       !important;
   }
 
   table.visible-md {
-    display: table !important
+    display: table;
+       !important;
   }
 
   tr.visible-md {
-    display: table-row !important
+    display: table-row;
+       !important;
   }
 
   td.visible-md,
   th.visible-md {
-    display: table-cell !important
+    display: table-cell;
+       !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .visible-md-block {
-    display: block !important
+    display: block;
+       !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .visible-md-inline {
-    display: inline !important
+    display: inline;
+       !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .visible-md-inline-block {
-    display: inline-block !important
+    display: inline-block;
+       !important;
   }
 }
 
 @media (min-width:1200px) {
   .visible-lg {
-    display: block !important
+    display: block;
+       !important;
   }
 
   table.visible-lg {
-    display: table !important
+    display: table;
+       !important;
   }
 
   tr.visible-lg {
-    display: table-row !important
+    display: table-row;
+       !important;
   }
 
   td.visible-lg,
   th.visible-lg {
-    display: table-cell !important
+    display: table-cell;
+       !important;
   }
 }
 
 @media (min-width:1200px) {
   .visible-lg-block {
-    display: block !important
+    display: block;
+       !important;
   }
 }
 
 @media (min-width:1200px) {
   .visible-lg-inline {
-    display: inline !important
+    display: inline; !important
   }
 }
 
 @media (min-width:1200px) {
   .visible-lg-inline-block {
-    display: inline-block !important
+    display: inline-block;
+       !important;
   }
 }
 
 @media (max-width:767px) {
   .hidden-xs {
-    display: none !important
+    display: none;
+       !important;
   }
 }
 
 @media (min-width:768px) and (max-width:991px) {
   .hidden-sm {
-    display: none !important
+    display: none;
+       !important;
   }
 }
 
 @media (min-width:992px) and (max-width:1199px) {
   .hidden-md {
-    display: none !important
+    display: none;
+       !important;
   }
 }
 
 @media (min-width:1200px) {
   .hidden-lg {
-    display: none !important
+    display: none;
+       !important;
   }
 }
 
 .visible-print {
-  display: none !important
+  display: none;
+     !important;
 }
 
 @media print {
   .visible-print {
-    display: block !important
+    display: block;
+       !important;
   }
 
   table.visible-print {
-    display: table !important
+    display: table;
+       !important;
   }
 
   tr.visible-print {
-    display: table-row !important
+    display: table-row;
+       !important;
   }
 
   td.visible-print,
   th.visible-print {
-    display: table-cell !important
+    display: table-cell;
+       !important;
   }
 }
 
 .visible-print-block {
-  display: none !important
+  display: none;
+     !important;
 }
 
 @media print {
   .visible-print-block {
-    display: block !important
+    display: block;
+       !important;
   }
 }
 
 .visible-print-inline {
-  display: none !important
+  display: none;
+     !important;
 }
 
 @media print {
   .visible-print-inline {
-    display: inline !important
+    display: inline;
+       !important;
   }
 }
 
 .visible-print-inline-block {
-  display: none !important
+  display: none;
+     !important;
 }
 
 @media print {
   .visible-print-inline-block {
-    display: inline-block !important
+    display: inline-block;
+       !important;
   }
 }
 
 @media print {
   .hidden-print {
-    display: none !important
+    display: none;
+       !important;
   }
 }
